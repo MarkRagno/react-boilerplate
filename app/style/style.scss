@@ -59,10 +59,12 @@ table {
 /***** Main Container, Header, Footer *****/
 .main-container {
   width: 100%;
-	min-height: 1150px;
 	overflow: hidden;
 	.site-container {
-		width: 960px;
 		margin: 0 auto;
+			.innerWidth {
+				width: 960px;
+				margin: 0 auto;
+			}
 	}
 }

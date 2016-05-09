@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import CSSModules from 'react-css-modules';
-import styles from './landing.scss';
+import CSSModules from 'react-css-modules'
+import styles from './landing.scss'
 
-import User from '../../components/User/User';
+import User from '../../components/User/User'
 
 class Landing extends React.Component {
   render() {
