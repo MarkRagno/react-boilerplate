@@ -1,0 +1,18 @@
+@import '../../style/vars.scss';
+
+  /*user profile*/
+.user-container {
+
+  width: 30vw;
+  height: 85vh;
+  position: relative;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  transition: 1.5s;
+  -webkit-transition: 1.5s;
+}
+.user-container:hover {
+  width: 70vw;
+  height: 90vh;
+}

@@ -1,0 +1,10 @@
+@import '../../style/vars.scss';
+
+.store-container {
+  /*store*/
+  left: 10px;
+}
+.user-container:hover .box {
+  opacity: 1;
+  width: 300px;
+}
