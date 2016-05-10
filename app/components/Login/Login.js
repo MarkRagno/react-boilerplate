@@ -8,9 +8,14 @@ class Login extends React.Component {
   render() {
     return (
       <div styleName="login">
-        <input placeholder="User Name"/>
-        <input placeholder="Password"/>
-        <Link to="Landing">ENTER NOW</Link>
+        <section styleName="login-container">
+          <input placeholder="User Name"/>
+          <input placeholder="Password"/>
+          <Link to="ForgotPass">Forgot Password</Link>
+          <Link styleName="btn" to="Landing">ENTER NOW</Link>
+          <Link to="Enter">Cancel</Link>
+
+        </section>
       </div>
     )
   }

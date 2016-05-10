@@ -1,0 +1,84 @@
+@import '../../style/vars.scss';
+
+.register {
+  display: flex;
+    align-items: center;
+  margin: 0 auto;
+  width: auto;
+  height: 883px;
+  background: url(../../images/Backgrounds/hermit.jpg) top center no-repeat #111;
+  background-size: auto 883px;
+
+  input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    &[type="checkbox"] {
+      height: 18px;
+      width: 18px;
+      margin: 30px 6px 0 0;
+    }
+  }
+  a {
+    text-decoration: none;
+    margin-top: 3px;
+  }
+
+  .reg-container {
+    width: 600px;
+    height: 600px;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      align-self: center;
+      justify-content: center;
+
+      h2 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+
+      }
+
+    .reg-fields {
+      width: 500px;
+      height: 400px;
+      display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        align-self: center;
+
+        .checkbox-container {
+          display: block;
+
+          a {
+            padding: 0;
+            background: none;
+            font-size: inherit;
+            font-weight: inherit;
+            text-transform: none;
+          }
+        }
+    }
+
+    .button-container {
+      display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+     padding: 15px 30px;
+     color: #000;
+     font-size: 18px;
+     font-weight: bold;
+     text-transform: uppercase;
+     background: #fff;
+     margin: 25px auto;
+      &:hover {
+       background: #FBD63B;
+      }
+    }
+  }
+}

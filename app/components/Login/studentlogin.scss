@@ -1,13 +1,48 @@
 @import '../../style/vars.scss';
 
 input {
-  display: block;
-  margin: 0 auto;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
 }
 a {
   text-decoration: none;
+  margin-top: 3px;
 }
 
 .login {
+  display: flex;
+    align-items: center;
   margin: 0 auto;
+  width: auto;
+  height: 883px;
+  background: url(../../images/Backgrounds/hermit.jpg) top center no-repeat #111;
+  background-size: auto 883px;
+
+  .login-container {
+    width: 400px;
+    height: 290px;
+    margin:0 auto;
+    display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      align-self: center;
+    text-align: center;
+
+    .btn {
+     padding: 15px 30px;
+     color: #000;
+     font-size: 18px;
+     font-weight: bold;
+     text-transform: uppercase;
+     background: #fff;
+     margin: 25px auto;
+
+      &:hover {
+       background: #FBD63B;
+      }
+    }
+
+  }
+
 }
