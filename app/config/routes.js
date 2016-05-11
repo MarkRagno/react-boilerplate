@@ -17,6 +17,7 @@ let routes = (
   <Router history={hashHistory}>
       <Route path="/" component={Main}>
         <IndexRoute component={Enter} />
+        <Route path="Enter" component={Enter} />
         <Route path="Login" component={Login} />
         <Route path="Register" component={Register} />
         <Route path="Landing" component={Landing} />

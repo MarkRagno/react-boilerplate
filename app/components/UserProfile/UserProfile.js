@@ -12,7 +12,7 @@ class UserProfile extends React.Component {
 		return (
 		<div styleName="profile-container">
 			<Store/>
-			<div>
+			<div styleName="profile-info">
 				<h1>Profile</h1>
 			</div>
 			<UserStats/>

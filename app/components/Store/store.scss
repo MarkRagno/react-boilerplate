@@ -3,8 +3,10 @@
 .store-container {
   /*store*/
   left: 10px;
+  flex-grow: 1;
 }
 .user-container:hover .box {
   opacity: 1;
   width: 300px;
+  background: #111;
 }

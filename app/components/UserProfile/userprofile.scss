@@ -2,17 +2,40 @@
 
 /*profile*/
 .profile-container {
-  width: 100%;
-  height: 50%;
+  width: 300px;
+  // height: 50%;
   display: flex;
-    flex-direction: column;
-    align-content: space-around;
-  background: black;
-  color: purple;
+    flex-direction: row;
+    justify-content: space-around;
+    // flex-basis: 1;
+  background: rgba(0, 0, 0, .5);
+  color: white;
   position: relative;
   margin-top: 5px;
   margin: 0 auto;
   text-align: center;
-  transition: 1.5s;
-    -webkit-transition: 1.5s;
+  transition: 1.75s;
+    -webkit-transition: 1.75s;
+
+  &:hover {
+    width: 900px;
+    height: 360px;
+  }
+
+  .profile-info {
+      width: 300px;
+
+      // h1 {
+      // color: gold;
+      // }
+
+      &:hover .box {
+        opacity: 1;
+        width: 300px;
+        background: #111;
+      }
+
+    }
+
+
 }

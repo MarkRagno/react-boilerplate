@@ -3,8 +3,9 @@
 .stats-container {
   /*stats*/
   right: 10px;
+  flex-grow: 1;
 }
 .box {
   opacity: 1;
-  width: 300px;
+  // width: 300px;
 }
