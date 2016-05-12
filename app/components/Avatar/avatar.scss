@@ -1,21 +1,29 @@
 @import '../../style/vars.scss';
 
-/*avatar*/
-.avatar-container {
-  width: 300px;
-  height: 400px;
-  margin-top: 5px;
-  margin: 0 auto;
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-  transition: 1.5s;
-    -webkit-transition: 1.5s;
+.avatar-section {
+  display: flex;
+    flex-direction: row;
+    height: 400px;
 
-  img {
+  .avatar-container {
     width: 300px;
-    height: 100%;
-    display: block;
-    // position: absolute;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: 1.5s;
+      -webkit-transition: 1.5s;
+
+      // &:hover {
+      //   width: 600px;
+      //   height: 500px;
+      // }
+
+    img {
+      width: 300px;
+      height: 100%;
+      display: block;
+      // position: absolute;
+    }
   }
 }

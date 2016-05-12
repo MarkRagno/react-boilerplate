@@ -7,7 +7,7 @@ import styles from './store.scss'
 class Store extends React.Component {
 	render() {
 		return (
-		<div styleName="store-container box">
+		<div styleName="store-container">
 			<h1>Store</h1>
 		</div>
 	)}
